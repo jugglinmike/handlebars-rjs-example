@@ -1,0 +1,18 @@
+{
+  "name": "handlebars-rjs",
+  "version": "1.0.0",
+  "description": "Example project demonstrating how to structure JavaScript applications with AMD and Handlebars templates",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/r.js -o build/config.js",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "requirejs": "^2.1.15"
+  },
+  "private": true
+}

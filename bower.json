@@ -1,0 +1,16 @@
+{
+  "name": "handlebars-rjs",
+  "version": "0.0.0",
+  "authors": [
+    "Mike Pennisi <mike@mikepennisi.com>"
+  ],
+  "license": "MIT Expat",
+  "private": true,
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "require-handlebars-plugin": "~0.10.0"
+  },
+  "devDependencies": {
+    "almond": "~0.3.0"
+  }
+}
